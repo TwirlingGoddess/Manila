@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-var user = require('../user.json')
+var user = require('../../assets/user.json')
 
 class User extends Component {
 

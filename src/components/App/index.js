@@ -1,8 +1,7 @@
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import User from '../Components/User.js'
-import Orders from '../Components/Orders.js'
+import User from '../User/User.js'
+import Orders from '../Orders/Orders.js'
 
 class App extends Component {
   render() {
@@ -16,8 +15,4 @@ class App extends Component {
   }
 }
 
-ReactDOM.render(
-  <App/>,
-  document.getElementById('app')
-
-)
+export default App

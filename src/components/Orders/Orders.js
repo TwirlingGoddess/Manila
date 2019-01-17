@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-var orders = require('../order-book.json')
+var orders = require('../../assets/order-book.json')
 
 class Orders extends Component {
 
