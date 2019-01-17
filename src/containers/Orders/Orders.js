@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-var orders = require('../order-book.json')
+var orders = require('../../assets/order-book.json')
 
 class Orders extends Component {
 
@@ -73,20 +73,18 @@ class Orders extends Component {
 
     return(
       <div>
-        <hr />
-          <h1>Bids</h1>
-          <article>
-            { bidsList }
-          </article>
-          <h1>All Orders</h1>
-          <article>
-            { ordersArray }
-          </article>
-          <h1>Asks</h1>
-          <article>
-            { asksList }
-          </article>
-
+        <h1>Bids</h1>
+        <article>
+          { bidsList }
+        </article>
+        <h1>All Orders</h1>
+        <article>
+          { ordersArray }
+        </article>
+        <h1>Asks</h1>
+        <article>
+          { asksList }
+        </article>
       </div>
     )
   }
