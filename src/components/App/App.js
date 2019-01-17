@@ -1,14 +1,16 @@
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
-import User from '../User/User.js'
-import Orders from '../Orders/Orders.js'
+import User from '../../containers/User/User'
+import Orders from '../../containers/Orders/Orders'
 
 class App extends Component {
   render() {
     return(
-      <div>
-        <h1>Hello World</h1>
+      <div className = "App">
+        <h1>BitCoin Order Book</h1>
+        <hr />
         <User />
+        <hr />
         <Orders />
       </div>
     )
