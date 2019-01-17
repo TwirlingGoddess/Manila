@@ -5,6 +5,7 @@ class User extends Component {
 
   render() {
     var userArray = user.balances.map(duo => {
+      console.log("the user is here somewhere", user)
       return(
         <h3>{ duo.symbol } : <em>{ duo.balance }</em></h3>
       )
